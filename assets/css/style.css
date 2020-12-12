@@ -102,28 +102,26 @@ header nav ul li a {
   color:  #72A0BA;
 }
 
-.work-grid-wrapper {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-}
-
 .work-grid-container {
   display: grid;
-  grid-template-columns: 200px;
-  justify-items: center;
   grid-gap: 5px;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 100px 50px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
 }
 
-.word-grid-item {
-  display: flex;
+.word-grid-item{
+  width:100%;
 }
 
-.word-grid-item img{
- width: 100%;
+.word-grid-item.proj-1 {
+  grid-column: 1 / 2;
+  background-image: url("../images/Run-buddy-img.png");
 }
   
-
 .contact {
   display: flex;
   flex-wrap: wrap;
@@ -133,7 +131,7 @@ header nav ul li a {
 
 .contact-heading {
   color:  #72A0BA;
-  font-size: 35px;
+  font-size: 25px;
   margin: 20px 35px;
   border-right: 2px solid #4B697A;
   padding: 10px;
