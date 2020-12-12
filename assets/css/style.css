@@ -61,6 +61,34 @@ header nav ul li a {
   height: 35vw;
 }
 
+.steven-bio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+}
+
+.steven-info{
+  padding: 20px;
+  text-align: left;
+  width: 45%;
+  line-height: 1.5;
+}
+
+.steven-img {
+  padding: 20px;
+  width: 45%;
+}
+
+.steven-img img {
+  width: 100%;
+}
+
+
+
+
+
 
 
 
