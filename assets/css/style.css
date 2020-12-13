@@ -48,18 +48,39 @@ header nav ul li a {
 }
 /* Header Styles End */
 
+/*Section Styles Start */
+section {
+  padding: 30px;
+}
+
 .section-title {
   text-align: center;
   margin: 60px;
   font-size: 50px;
-  margin: 20px auto 35px auto;
+  margin: 20px auto;
   width: 50%;
   border-bottom: 3px solid #4B697A;
   color: white;
   padding-bottom: 15px;
 }
 
+.section-title2 {
+  color:  #72A0BA;
+  font-size: 40px;
+  width: auto;
+  border-right: 2px solid #4B697A;
+  padding: 10px;
+  width: 20%;
+  height: 50%;
+  text-align: right;
+}
+/* Section Styles End */
+
 /* Hero Styles Start */
+.hero {
+  padding: 0;
+}
+
 .hero img{
   width: 100%;
   height: 35vw;
@@ -94,8 +115,13 @@ header nav ul li a {
 }
 /* About Me Styles End */
 
+/* Work StyleS Start */
 .projects {
   background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .projects h2 {
@@ -104,48 +130,41 @@ header nav ul li a {
 
 .work-grid-container {
   display: grid;
-  grid-gap: 5px;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: 100px 50px;
-  width: 90%;
-  margin: 0 auto;
-  text-align: center;
-  padding: 20px 0;
+  width: 75%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 200px 100px;;
+  grid-auto-flow: dense;
 }
 
-.word-grid-item{
+.work-grid-item.item-1{
+  background-color: lightgreen;
+  grid-row: 1 / 2;
+  grid-column: 1 / 3;
+}
+
+.work-grid-item.item-1 img {
   width:100%;
 }
 
-.word-grid-item.proj-1 {
-  grid-column: 1 / 2;
-  background-image: url("../images/Run-buddy-img.png");
-}
+
+  
+/* Work Section Styles End */ 
   
 .contact {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
 
-.contact-heading {
-  color:  #72A0BA;
-  font-size: 25px;
-  margin: 20px 35px;
-  border-right: 2px solid #4B697A;
-  padding: 10px;
-}
-
 .contact-info {
-  width: 60%;
+  width: 75%;
 }
 
 .contact-info a {
   color: #72A0BA;
   font-size: 25px;
   text-decoration: none;
-  margin: 20px 15px;
+  margin: 0 25px;
 }
 
 
