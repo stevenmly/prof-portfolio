@@ -7,8 +7,13 @@ A website built from scratch to serve as Steven Ly's professional portfolio. Wit
 * HTML
 * CSS
 
+## Screenshots
+![Application-screenshot](./assets/images/screenshot1.png)
+![Application-screenshot](./assets/images/screenshot2.png)
+![Application-screenshot](./assets/images/screenshot3.png)
+
 ## Website
-https://lernantino.github.io/run-buddy/
+https://stevenmly.github.io/prof-portfolio/
 
 ## Contribution
 Made with ❤️ by Steven Ly
